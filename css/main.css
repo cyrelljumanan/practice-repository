@@ -1,0 +1,144 @@
+/**** BASE STYLES ****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #ffffff;
+}
+
+/**** GRID ****/
+.full-width {
+  width: 1230px;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  height: 200px;
+  float: left;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+}
+
+/**** HEADER ****/
+
+header {
+  height: 100px;
+}
+
+header h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+
+}
+
+header h2 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #77a466;
+  padding-left: 15px;
+}
+
+
+/**** TOP SECTION ****/
+
+#top-section img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+#top-section h3 {
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#top-section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+
+/**** BOTTOM SECTION ****/
+
+
+#specials h4, #reviews h4, #contact h4 {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#specials p {
+  color: #77a466;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 30px;
+
+}
+
+#reviews p {
+  color: black;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#contact p {
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+#reviews {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#contact {
+  width: 395px;
+  padding-left: 10px;
+}
+
+
+/**** FOOTER ****/
+
+#footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+
+}
+
+#footer span {
+  color: #77a466;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 20px;
+}
